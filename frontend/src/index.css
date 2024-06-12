@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS */
+.select::-webkit-scrollbar {
+  width: 5px; /* Thin scrollbar width */
+}
+
+.select::-webkit-scrollbar-track {
+  background-color: #ffffff; /* Track color */
+}
+
+.select::-webkit-scrollbar-thumb {
+  background-color: #0000003f; /* Thumb color */
+  border-radius: 8px; /* Rounded edges */
+}
+
+/* For Firefox */
+.select::-moz-scrollbar {
+  width: 5px;
+}
+
+.select::-moz-scrollbar-track {
+  background-color: #ffffff;
+}
+
+.select::-moz-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 8px;
+}
+
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
